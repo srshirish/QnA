@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<style>
+    .card-with-border {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card card-with-border">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-3">Register New User</h5>
+                    <form action="/Auth/SignUp" method="post">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
+                            <div id="password-validation-message" class="text-danger"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </form>
+                    <p class="mt-2 mb-0">Already have an account? <a href="/Auth/SignIn">Sign in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Script for password validation
+    const passwordInput = document.getElementById('password');
+    const confirmPasswordInput = document.getElementById('confirm_password');
+    const validationMessage = document.getElementById('password-validation-message');
+
+    function validatePassword() {
+        const password = passwordInput.value;
+        const confirmPassword = confirmPasswordInput.value;
+
+        if (password !== confirmPassword) {
+            validationMessage.textContent = "Passwords do not match.";
+        } else {
+            validationMessage.textContent = "";
+        }
+    }
+
+    confirmPasswordInput.addEventListener('input', validatePassword);
+</script>

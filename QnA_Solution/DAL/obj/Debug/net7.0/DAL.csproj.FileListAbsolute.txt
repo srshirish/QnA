@@ -1,0 +1,15 @@
+C:\Users\dell\Desktop\QnA_Solution\dal\bin\Debug\net7.0\DAL.deps.json
+C:\Users\dell\Desktop\QnA_Solution\dal\bin\Debug\net7.0\DAL.dll
+C:\Users\dell\Desktop\QnA_Solution\dal\bin\Debug\net7.0\DAL.pdb
+C:\Users\dell\Desktop\QnA_Solution\dal\bin\Debug\net7.0\BOL.dll
+C:\Users\dell\Desktop\QnA_Solution\dal\bin\Debug\net7.0\BOL.pdb
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.csproj.CopyComplete
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.dll
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\DAL.pdb
+C:\Users\dell\Desktop\QnA_Solution\dal\obj\Debug\net7.0\ref\DAL.dll

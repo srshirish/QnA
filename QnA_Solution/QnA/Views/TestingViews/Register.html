@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2 class="text-center">Register New User</h2>
+            <form action="#" method="POST" onsubmit="return validateForm()">
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
+                </div>
+                <div class="text-danger" id="password_error"></div>
+                <button type="submit" class="btn btn-primary mt-3">Register</button>
+                <p class="text-center mt-2">
+                    <a href="#" onclick="resetForm()">Reset form</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var password = document.getElementById("password").value;
+            var confirm_password = document.getElementById("confirm_password").value;
+            var password_error = document.getElementById("password_error");
+
+            if (password !== confirm_password) {
+                password_error.textContent = "Password do not match";
+                return false;
+            } else {
+                password_error.textContent = "";
+                return true;
+            }
+        }
+
+        function resetForm() {
+            document.getElementById("password_error").textContent = "";
+            document.getElementById("password").value = "";
+            document.getElementById("confirm_password").value = "";
+        }
+    </script>
+</body>
+</html>

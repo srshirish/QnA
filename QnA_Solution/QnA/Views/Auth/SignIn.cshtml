@@ -1,0 +1,46 @@
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<style>
+    .card-with-border {
+        border: 1px solid #ccc;
+        border-radius: 10px; /* Update border-radius value for better appearance */
+        overflow: hidden; /* Add overflow property to hide any content overflowing from the card */
+    }
+</style>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card card-with-border">
+                <div class="card-body text-center"> <!-- Add 'text-center' class to center the content -->
+                    <h5 class="card-title mb-3">Please enter your credentials</h5> <!-- Remove 'text-center' class from the heading -->
+                    <form method="post">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <p class="mt-2 mb-0">Don't have an account? <a href="/Auth/SignUp">Sign up</a></p>
+                    <p class="mt-1 mb-0">Forgot password? <a href="/Auth/RecoverPassword">Recover password</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
