@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using QnA.Models;
+using BLL;
 
 namespace QnA.Controllers;
 
@@ -28,8 +29,9 @@ public class AuthController : Controller
     {   
         string tempName=firstname+" "+lastname;
         string tempEmail=email;
-        string tempToken=MyEncryptor.Encrypt(firstname+email);
-        string tempPassword=MyEncryptor.Encrypt(firstname+email);
+        string tempToken=SecurityTokenGenerator.GenerateSecurityToken(firstname,email);
+        string tempPassword=DataEncryptor.Encrypt(password);
+        User tempUser=new User(Name)
         return null;
     }
 

@@ -29,3 +29,14 @@ C:\Users\dell\Desktop\QnA_Solution\QnA\obj\Debug\net7.0\refint\QnA.dll
 C:\Users\dell\Desktop\QnA_Solution\QnA\obj\Debug\net7.0\QnA.pdb
 C:\Users\dell\Desktop\QnA_Solution\QnA\obj\Debug\net7.0\QnA.genruntimeconfig.cache
 C:\Users\dell\Desktop\QnA_Solution\QnA\obj\Debug\net7.0\ref\QnA.dll
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.AssemblyInfo.cs
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.RazorAssemblyInfo.cache
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.RazorAssemblyInfo.cs
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.dll
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\refint\QnA.dll
+C:\Users\dell\Desktop\Git-QnA\QnA_Solution\QnA\obj\Debug\net7.0\QnA.pdb
