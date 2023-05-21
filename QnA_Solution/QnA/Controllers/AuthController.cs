@@ -31,7 +31,7 @@ public class AuthController : Controller
         string tempEmail=email;
         string tempToken=SecurityTokenGenerator.GenerateSecurityToken(firstname,email);
         string tempPassword=DataEncryptor.Encrypt(password);
-        User tempUser=new User(Name)
+        
         return null;
     }
 
