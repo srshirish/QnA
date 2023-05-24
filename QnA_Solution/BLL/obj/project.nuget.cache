@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cv2KBjj3WY9Hrnj1sD4OX1RXWMFaUVC8GiDrI6qZFszdnO5uEKriU/m0eCp9sfQHVDwN4i+6OyOtC8+K+hbASw==",
+  "dgSpecHash": "qHkYpi8d4rcZcvi2FdX1yE+dvdI2WJimbdUg+eDtNz9D6nVCvxtfIKW1Ro01j0x8Q6PJhpJEU+2TVuJWCxAMVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

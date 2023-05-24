@@ -9,14 +9,13 @@
         overflow: hidden;
     }
 </style>
-
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card card-with-border">
                 <div class="card-body text-center">
                     <h5 class="card-title mb-3">Register New User</h5>
-                    <form action="/Auth/SignUp" method="post">
+                    <form action="/Auth/SignUp" method="post" onsubmit="return validateForm()">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" required>
                         </div>
@@ -61,4 +60,28 @@
     }
 
     confirmPasswordInput.addEventListener('input', validatePassword);
+
+    // Validation for name and email fields
+    function validateForm() {
+        const firstnameInput = document.getElementById('firstname');
+        const lastnameInput = document.getElementById('lastname');
+        const emailInput = document.getElementById('email');
+        
+        if (firstnameInput.value.length > 19) {
+            alert("First name should be a maximum of 19 characters.");
+            return false;
+        }
+        
+        if (lastnameInput.value.length > 19) {
+            alert("Last name should be a maximum of 19 characters.");
+            return false;
+        }
+        
+        if (emailInput.value.length > 42) {
+            alert("Email should be a maximum of 42 characters.");
+            return false;
+        }
+        
+        return true;
+    }
 </script>

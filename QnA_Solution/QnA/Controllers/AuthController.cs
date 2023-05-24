@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using QnA.Models;
 using BLL;
+using BOL;
 
 namespace QnA.Controllers;
 
@@ -31,8 +32,17 @@ public class AuthController : Controller
         string tempEmail=email;
         string tempToken=SecurityTokenGenerator.GenerateSecurityToken(firstname,email);
         string tempPassword=DataEncryptor.Encrypt(password);
+        AuthManager auth=new AuthManager();
+        if(!auth.ValidateUser(tempName,email)) {
+            if(auth.RegisterUser(new User{FullName=tempName,Email=tempEmail,SecurityToken=tempToken,Password=tempPassword}))
+                Console.WriteLine("User Added");
+            else 
+                Console.WriteLine("User not Added"); 
+        } else {
+            Console.WriteLine("False");
+        }
         
-        return null;
+        return View();
     }
 
     public IActionResult RecoverPassword()

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F00TZ6KBysKKI7TeZeraZbXi+OF1BXrar1Zy8bbMGIIalhJTYs3RoQ2QEG3eme7NXbbsjqUJVQmm9NTpaPtP+g==",
+  "dgSpecHash": "XAWK/JxmuIZBQBfnPfGM21D+ZC7+RReA0ZOaipyRZDuC3bKkEKN2qGR8slwClYiFbueSq7HimZX5rXsm4/IZHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\dal\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\dal\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

@@ -2364,11 +2364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\QnA_Solution\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\BLL\\BLL.csproj",
+      "projectPath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\BLL\\obj\\",
+      "outputPath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2383,11 +2383,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\dell\\Desktop\\QnA_Solution\\bol\\BOL.csproj": {
-              "projectPath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\bol\\BOL.csproj"
+            "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\bol\\BOL.csproj": {
+              "projectPath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\bol\\BOL.csproj"
             },
-            "C:\\Users\\dell\\Desktop\\QnA_Solution\\dal\\DAL.csproj": {
-              "projectPath": "C:\\Users\\dell\\Desktop\\QnA_Solution\\dal\\DAL.csproj"
+            "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\dal\\DAL.csproj": {
+              "projectPath": "C:\\Users\\dell\\Desktop\\Git-QnA\\QnA_Solution\\dal\\DAL.csproj"
             }
           }
         }

@@ -7,9 +7,9 @@ public class AuthManager
 
     private readonly ContextCollection _context;
 
-    public AuthManager(ContextCollection context)
+    public AuthManager()
     {
-        _context = context;
+        _context = new ContextCollection();
     }
 
     public bool RegisterUser(User ud)
